@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMemecoinPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/memebank.sol": "IPriceOracle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/memebank.sol": {
+			"keccak256": "0x95c4bf7458437bec1352c33b06795805db6eeabff5f0729e9d92ff90991b3549",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7718fdfe9625c89b83c1dbd8472050a0dc5fd41062251688a6285a4021ea3cf6",
+				"dweb:/ipfs/QmXk22K9ASzwwd2pmEEkFUhAEEkdEVg6SJ53pioz5mBYTk"
+			]
+		}
+	},
+	"version": 1
+}
