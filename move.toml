@@ -1,0 +1,14 @@
+[package]
+name = "memepoolbank"
+version = "1.0.0"
+authors = []
+
+[addresses]
+memepoolbank = "0x913355e2e5af20658a6d60760773821910c8749bdb4fdd285e4e3e3bda58707d"
+supra = "0x5156d144fabd00d6b84141159cd82bc1e33a78f616af8cd9754890a9e26d7b97"
+oracle_holder = "0x63ce485ca5b0f74f24bb59fd11b6327ddeacdfbb0f4371601dc5aef3a6b3c02"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"

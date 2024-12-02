@@ -1,0 +1,12 @@
+[package]
+name = "dogetokenmemev2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dogetokenmeme = "0x913355e2e5af20658a6d60760773821910c8749bdb4fdd285e4e3e3bda58707d"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
