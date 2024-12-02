@@ -130,11 +130,11 @@
 	},
 	"sources": {
 		"contracts/memebank.sol": {
-			"keccak256": "0x95c4bf7458437bec1352c33b06795805db6eeabff5f0729e9d92ff90991b3549",
+			"keccak256": "0x60325e4489a1f9eddf0dc246bdd3329d81a3f97371fd037a24b0a717f822a0d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7718fdfe9625c89b83c1dbd8472050a0dc5fd41062251688a6285a4021ea3cf6",
-				"dweb:/ipfs/QmXk22K9ASzwwd2pmEEkFUhAEEkdEVg6SJ53pioz5mBYTk"
+				"bzz-raw://15b0379965baa7c0b510969fba149a01b595bdf8d6a9ef6ca8d05b178aa18832",
+				"dweb:/ipfs/Qmb5gsGBFDuTJEvVojvQyuh5s9pPXy26PUfxt3MsUtSAvc"
 			]
 		}
 	},

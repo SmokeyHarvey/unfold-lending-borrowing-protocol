@@ -1,0 +1,34 @@
+{
+  "name": "TestPriceOracle",
+  "address": "0x78be753961f94dd51335c44f3771519237139e6a",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_newPrice",
+          "type": "uint256"
+        }
+      ],
+      "name": "setPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMemecoinPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "Memebank SupraO V4 Fork/contracts/testPriceoracle.sol",
+  "pinnedAt": 1733078061939
+}

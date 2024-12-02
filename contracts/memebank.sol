@@ -142,6 +142,27 @@ contract MemecoinLendingBorrowing {
         lendingInterestRate = _rate;
     }
 
+    // Function to calculate total repayment amount including interest
+function calculateRepaymentAmount(address _user) public view returns (
+    uint256 totalRepayment,
+    uint256 principal,
+    uint256 interestAmount
+) {
+    UserData storage user = users[_user];
+    require(user.borrowedAmount > 0, "No active loan");
+    
+    // Get the original borrowed amount (principal)
+    principal = user.borrowedAmount;
+    
+    // Calculate total owed including interest
+    totalRepayment = calculateInterest(_user);
+    
+    // Calculate just the interest portion
+    interestAmount = totalRepayment - principal;
+    
+    return (totalRepayment, principal, interestAmount);
+}
+
     // New view function to get platform stats
     function getPlatformStats() external view returns (
         uint256 totalDeposits,
@@ -206,6 +227,8 @@ contract MemecoinLendingBorrowing {
             user.depositTimestamp
         );
     }
+
+    
 
     // Fetch the USD value of the user's Memecoin collateral
     function getCollateralValue(address _user) public view returns (uint256) {
